@@ -1,3 +1,4 @@
+
 /* .container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -174,7 +175,7 @@ a:active .active-color {
     vertical-align: middle;
 }
 
-a:hover .post-meta, a:active .post-meta,
+a:hover .post-meta, a:active .post-meta, 
 a:hover.post-meta, a:active.post-meta {
     color: var(--active-color);
 }
@@ -246,6 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 footer .copyright {
     overflow: hidden;
     /* background-color: rgba(0, 0, 0, 0.2); */
@@ -292,7 +294,7 @@ post card
     transition: transform 0.2s ease-out;
 }
 
-.post-card .view:hover img,
+.post-card .view:hover img,  
 .post-card a:hover img {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
@@ -307,7 +309,7 @@ Markdown
 
 */
 
-.markdown h1, .markdown h2, .markdown h3,
+.markdown h1, .markdown h2, .markdown h3, 
 .markdown h4, .markdown h5, .markdown h6 {
     font-weight: 500;
 }
@@ -421,7 +423,7 @@ Markdown
     color: var(--text-grey);
     /* border-left: .25rem solid #e5e5e5; */
     border-left: .25rem solid var(--grey-l3);
-
+  
 }
 
 .markdown blockquote p:last-child {
@@ -466,6 +468,7 @@ Markdown
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
 
 
 /*
@@ -624,6 +627,7 @@ carousel
 */
 
 
+
 .headfont {
     font-family: 'Raleway', "Helvetica Neue", Arial, "PingFang SC", "Lantinghei SC", "Microsoft YaHei", sans-serif !important;
 
@@ -652,7 +656,6 @@ carousel
 .pull-right {
     float: right;
 }
-
 .carousel-indicators, .carousel-control-prev, .carousel-control-next {
     z-index: 30;
 }
@@ -739,7 +742,7 @@ toc-nav  scrollspy
 .toc-nav .nav-link {
     text-overflow: ellipsis;
     overflow: hidden;
-}
+} 
 
 .toc-nav .nav-item, .toc-nav .nav-link {
     font-size: .8rem;
@@ -778,7 +781,8 @@ toc-nav  scrollspy
     -webkit-box-shadow: none;
     box-shadow: none;
     font-weight: 700;
-}
+} 
+
 
 
 /*

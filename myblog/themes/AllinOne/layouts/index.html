@@ -8,12 +8,17 @@
     <h1 class="display-3">{{ $.Site.Params.welcome_head }}</h1>
     {{ with $.Site.Params.welcome_word }}
     <p style="font-size:1.8rem; color: var(--text-light);">{{ $.Site.Params.welcome_word }}</p>
+    <p style="font-size:1.2rem; color: var(--text-light);">Here is my blog.</p>
+    <p style="font-size:1rem; color: var(--text-light);"><span id="busuanzi_container_site_pv">This site has <span
+            id="busuanzi_value_site_pv"></span> views</span> and <span id="busuanzi_container_site_uv"><span
+            id="busuanzi_value_site_uv"></span> visitors.</span></p>
+
     {{ end }}
 </section>
 {{ end }}
 <!-- /.Welcome Word -->
 
-{{ end }}
+{{ end }} 
 
 
 {{ define "main" }}

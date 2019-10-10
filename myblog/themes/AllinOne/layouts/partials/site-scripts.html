@@ -9,36 +9,43 @@
 <script js src="{{ " type="text/javascript"/vendors/jquery/jquery.smooth-scroll.min.js" | absURL }}"></script>
 <!-- /.jquery -->
 
+<
+script
+async
+src = "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+<script js src="{{ " type="text/javascript"/vendors/popper.min.js" | absURL }}"></script>
+<
+script
+type = "text/javascript"
+src = "{{ "
+js / vendors / holder.min.js
+" | absURL }}" ></script>
+<script js src="{{ " type="text/javascript"/vendors-extensions/bootstrap4/bootstrap.js" | absURL }}" ></script>
 
 <
 script
 type = "text/javascript"
 src = "{{ "
-js / vendors / popper.min.js
-" | absURL }}" ></script>
-<script js src="{{ " type="text/javascript"/vendors/holder.min.js" | absURL }}"></script>
-<
-script
-type = "text/javascript"
-src = "{{ "
-js / vendors - extensions / bootstrap4 / bootstrap.js
+js / vendors / mdb / mdb.min.js
 " | absURL }}" ></script>
 
-<script js src="{{ " type="text/javascript"/vendors/mdb/mdb.min.js" | absURL }}"></script>
-
-<
-script
-type = "text/javascript"
-src = "{{ "
-js / main.js
-" | absURL }}" ></script>
+<script js src="{{ " type="text/javascript"/main.js" | absURL }}"></script>
 
 
 <!-- Highlight -->
-{{ if .Site.Params.highlightjs }}
-<script jssrc="{{ "/vendors/highlight.pack.js" | absURL }}"> </script>
+{
+    {
+        if .
+        Site.Params.highlightjs
+    }
+}
 <
-script > hljs.initHighlightingOnLoad();</script>
+script
+src = "{{ "
+js / vendors / highlight.pack.js
+" | absURL }}" > </script>
+<script>hljs.initHighlightingOnLoad();</script>
 {{ end }}
 <!-- /.Highlight -->
 

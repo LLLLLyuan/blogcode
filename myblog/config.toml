@@ -1,4 +1,4 @@
-baseURL                    = "https//:www.bestyuan.fun"
+baseURL                    = "https://bestyuan.fun"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
@@ -19,10 +19,12 @@ pygmentsuseclasses         = true
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
 
+
 [taxonomies]
   tag                      = "tags"
   series                   = "series"
   category                 = "categories"
+
 
 [menu]
   [[menu.main]]
@@ -42,6 +44,13 @@ pygmentsuseclasses         = true
     weight                 = -100
     identifier             = "about"
     url                    = "about/"
+
+  [[menu.main]]
+    name                   = "Frendly Link"
+    weight                 = -100
+    identifier             = "friendlylink"
+    url                    = "friendlylink/"
+
 
 
 
@@ -70,18 +79,18 @@ pygmentsuseclasses         = true
   katex                    = true
 
   # links
-  email                    = "461192586@qq.com"
-  github                   = "https://github.com/LLLLLyuan"
-#  linkedin                 = "//linkedin.com/in/you"
+   email                    = "461192586@qq.com"
+   github                   = "https://github.com/LLLLLyuan"
+#   linkedin                 = "//linkedin.com/in/you"
 #  facebook                 = "//facebook.com/you"
 #  googleplus               = "//google.com/you"
 #  twitter                  = "//twitter.com/you"
 #  instagram                = "//instagram.com/you"
 
-  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
+   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
 
   # analytics
-  googleAnalytics          = "UA-149678098-1"
+  #googleAnalytics          = "UA-149678098-1"
 
   #counter
   busuanzi                 = true

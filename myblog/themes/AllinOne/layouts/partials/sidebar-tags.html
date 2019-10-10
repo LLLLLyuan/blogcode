@@ -1,3 +1,4 @@
+
 {{ range where .Pages ".Params.tags" "ne" nil }}
 {{ $.Scratch.Add "tags"  (apply .Params.tags "lower" ".") }}
 {{ end }}

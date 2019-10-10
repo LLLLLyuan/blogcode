@@ -122,6 +122,7 @@
             var __WEBPACK_IMPORTED_MODULE_1__katex2tex__ = __webpack_require__(2);
 
 
+
 // Global copy handler to modify behavior on .katex elements.
             document.addEventListener('copy', function (event) {
                 var selection = window.getSelection();

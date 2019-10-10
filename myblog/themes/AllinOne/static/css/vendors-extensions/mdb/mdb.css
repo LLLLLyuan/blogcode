@@ -9032,34 +9032,27 @@ body.scrollable {
     .modal .modal-dialog.modal-top {
         top: 0;
     }
-
     .modal .modal-dialog.modal-left {
         left: 0;
     }
-
     .modal .modal-dialog.modal-right {
         right: 0;
     }
-
     .modal .modal-dialog.modal-bottom {
         bottom: 0;
     }
-
     .modal .modal-dialog.modal-top-left {
         top: 10px;
         left: 10px;
     }
-
     .modal .modal-dialog.modal-top-right {
         top: 10px;
         right: 10px;
     }
-
     .modal .modal-dialog.modal-bottom-left {
         bottom: 10px;
         left: 10px;
     }
-
     .modal .modal-dialog.modal-bottom-right {
         bottom: 10px;
         right: 10px;
@@ -9095,7 +9088,6 @@ body.scrollable {
         position: fixed;
         z-index: 1050;
     }
-
     .modal.modal-content-clickable {
         top: auto;
         bottom: auto;
@@ -9104,7 +9096,6 @@ body.scrollable {
     .modal.modal-content-clickable .modal-dialog {
         position: fixed;
     }
-
     .modal .modal-fluid {
         width: 100%;
         max-width: 100%;
@@ -9113,7 +9104,6 @@ body.scrollable {
     .modal .modal-fluid .modal-content {
         width: 100%;
     }
-
     .modal .modal-frame {
         position: absolute;
         margin: 0;
@@ -9124,7 +9114,6 @@ body.scrollable {
     .modal .modal-frame.modal-bottom {
         bottom: 0;
     }
-
     .modal .modal-full-height {
         position: absolute;
         display: -webkit-box;

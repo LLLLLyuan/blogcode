@@ -27,6 +27,7 @@
         {{ if not .Site.Params.noshowreadtime }}
         <li class="middot"></li>
         <li>{{ i18n "readingTime" .ReadingTime }}</li>
+        <li> This content have been read <span id="busuanzi_value_page_pv"></span> times.</li>
         {{ end }}
     </ul>
     {{ with .Params.img }}
