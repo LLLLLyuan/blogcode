@@ -49,3 +49,11 @@ if (location.hash) {
     $(window).trigger('hashchange');
 }
 
+// // $('[data-spy="scroll"]').each(function () {
+// //     var $spy = $(this).scrollspy('refresh')
+// //   })
+
+// $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
+//     // do something…
+//     var offset = $('[data-spy="scroll"]').attr("data-offset")
+//   })
