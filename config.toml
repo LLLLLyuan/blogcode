@@ -1,4 +1,4 @@
-baseURL                    = "https://bestyuan.fun"
+baseURL                    = "https://lllllyuan.github.io"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
@@ -8,7 +8,7 @@ publishdir                 = "public"
 enableEmoji                = true
 hasCJKLanguage             = true
 summaryLength              = 200
-Paginate                   = 3
+Paginate                   = 10      #分栏文章展示数量
 
 theme                      = "AllinOne"
 title                      = "BestYuan"
@@ -32,37 +32,40 @@ pygmentsuseclasses         = true
     weight                 = -120
     identifier             = "blog"
     url                    = "blog/"
+    comment                = false    #是否 在列表页开启评论功能
 
   [[menu.main]]
     name                   = "Moment"
     weight                 = -110
     identifier             = "moment"
     url                    = "moment/"
+    comment                = false
 
   [[menu.main]]
     name                   = "About"
     weight                 = -100
     identifier             = "about"
     url                    = "about/"
+    comment                = true
 
   [[menu.main]]
     name                   = "Frendly Link"
     weight                 = -100
     identifier             = "friendlylink"
     url                    = "friendlylink/"
-
+    comment                = false
 
 
 
 [params]
-  faviconfile              = "img/liu.png"               # from static/
-  avatar                   = "img/me.jpg"             # path to image in static dir e.g img/avatar.png
-  author                   = "BestYuan"
+  faviconfile              = "img/liu.png"               # 博客图标 from static/
+  avatar                   = "img/me.jpg"             # 头像 path to image in static dir e.g img/avatar.png
+  author                   = "BestYuan"              # 博客作者
   description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
   welcome_head             = "Hello, World!"
   welcome_word             = "~ No Day But Today ~"
 
-  latestpostscount         = 5                             # how many posts to display on the home page
+  latestpostscount         = 6                            # homepage最近文章展示数量
   bloggroupby              = 'month'
   dateform                 = "Jan 2, 2006"
   dateformfull             = "2006-01-02  Monday  15:04:05"
@@ -90,7 +93,14 @@ pygmentsuseclasses         = true
    include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
 
   # analytics
-  #googleAnalytics          = "UA-149678098-1"
+  googleAnalytics          = "UA-149678098-1"  # 谷歌统计
 
   #counter
-  busuanzi                 = true
+  busuanzi                 = true   # 不蒜子统计记录
+
+# 评论
+[params.utteranc]
+    enable = true
+    repo = "LLLLLyuan/lllllyuan.github.io"    # 存储评论的Repo，格式为 owner/repo
+    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" # 样式主题，有github-light和github-dark两种

@@ -2,7 +2,6 @@
 
 date: "2019-10-09T00:22:19+08:00"
 publishdate: "2019-10-09+08:00"
-lastmod: "2019-10-09+08:00"
 draft: false
 title: "我和我的blog(1)"
 tags: ["blog","Go","hugo"]

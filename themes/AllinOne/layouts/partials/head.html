@@ -1,95 +1,82 @@
 <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="True" name="HandheldFriendly">
-    <meta content="320" name="MobileOptimized">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" name="viewport"/>
-    {{ with .Site.Params.author }}
-    <meta content="{{ . }}" name="author">
-    {{ end }}
-    <meta content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
-          name="description">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+  
+  {{ template "_internal/opengraph.html" . }}
 
-    {{ template "_internal/opengraph.html" . }}
+  <title>
+  {{ if eq .Kind "home" }}
+      {{ .Site.Title }}
+  {{ else }}
+      {{ if .Params.heading }} {{ .Params.heading }} | {{ .Site.Title }} {{ else }} {{ .Title }} | {{ .Site.Title }} {{ end }}
+  {{ end }}
+  </title>
 
-    <title>
-        {{ if eq .Kind "home" }}
-        {{ .Site.Title }}
-        {{ else }}
-        {{ if .Params.heading }} {{ .Params.heading }} | {{ .Site.Title }} {{ else }} {{ .Title }} | {{ .Site.Title }}
-        {{ end }}
-        {{ end }}
-    </title>
+  <link rel="canonical" href="{{ .Permalink }}">
 
-    <link href="{{ .Permalink }}" rel="canonical">
+  <!-- HTTPS -->
+  {{ if .Site.Params.forcehttps }}
+  <script type="text/javascript">
+      var baseURL = '{{ .Site.BaseURL }}';
+      var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+      if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+          window.location.protocol = 'https:';
+      }
+  </script>
+  {{ end }}
 
-    <!-- HTTPS -->
-    {{ if .Site.Params.forcehttps }}
-    <script type="text/javascript">
-        var baseURL = '{{ .Site.BaseURL }}';
-        var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
-        if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
-            window.location.protocol = 'https:';
-        }
-    </script>
-    {{ end }}
+  <!-- Font Awesome -->
+  <link href="{{ "css/vendors-extensions/fontawesome/all.min.css" | absURL }}" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link csshref="{{ "
-    /vendors-extensions/fontawesome/all.min.css" | absURL }}" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600"
-          rel="stylesheet">
-    <link csshref="{{ "
-    /font.css" | absURL }}" rel="stylesheet">
-
-    <!-- CSS -->
-    <link csshref="{{ "
-    /vendors/bootstrap4/bootstrap.min.css" | absURL }}" rel="stylesheet">
-    <link csshref="{{ "
-    /vendors-extensions/mdb/mdb.min.css" | absURL }}" rel="stylesheet">
-    <link csshref="{{ "
-    /vendors/mdb/style.min.css" | absURL }}" rel="stylesheet">
-    <link csshref="{{ "
-    /main.css" | absURL }}" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="{{ "css/font.css" | absURL }}" rel="stylesheet"> 
+    
+  <!-- CSS -->
+  <link href="{{ "css/vendors/bootstrap4/bootstrap.min.css" | absURL }}" rel="stylesheet">
+  <link href="{{ "css/vendors-extensions/mdb/mdb.min.css" | absURL }}" rel="stylesheet"> 
+  <link href="{{ "css/vendors/mdb/style.min.css" | absURL }}" rel="stylesheet"> 
+  <link href="{{ "css/main.css" | absURL }}" rel="stylesheet">
 
 
-    <!-- Icon -->
-    <link .Site.Params.faviconfile
-          else end href="{{ .Site.Params.faviconfile | absURL }}" href="{{ .Site.Params.avatar | absURL }}"
-          if
-          if.Site.Params.avatar}} rel="shortcut icon" {{
-          {{
-          {{ }} }}
-    >
+  <!-- Icon -->
+  <link rel="shortcut icon"
+  {{ if .Site.Params.faviconfile }}
+      href="{{ .Site.Params.faviconfile | absURL }}"
+  {{ else if.Site.Params.avatar}}
+      href="{{ .Site.Params.avatar | absURL }}"
+  {{ end }}
+  >
 
 
-    <!-- RSS -->
-    {{ if and .Site.Params.include_rss .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" title="{{ .Site.Title }}" type="application/rss+xml"/>
-    {{ end }}
+  <!-- RSS -->
+  {{ if and .Site.Params.include_rss .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
 
-    <style type="text/css">
-        @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331 !important;
-            }
-        }
-    </style>
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
 
 
-    <!-- KaTeX -->
-    {{ if .Site.Params.katex }}
-    <link href="{{ " jsrel="stylesheet"
-    /vendors/katex/katex.min.css"| absURL }}">
-    {{ end }}
-    <!-- /.KaTeX -->
+  <!-- KaTeX -->
+  {{ if .Site.Params.katex }}  
+    <link rel="stylesheet" href="{{ "js/vendors/katex/katex.min.css"| absURL }}">
+  {{ end }}
+  <!-- /.KaTeX -->
 
-    <!-- Highlight -->
-    {{ if .Site.Params.highlightjs }}
-    <link css href="{{ " rel="stylesheet"
-    /vendors/highlight/github-gist.css"| absURL }}">
-    {{ end }}
+  <!-- Highlight -->
+  {{ if .Site.Params.highlightjs }}  
+    <link rel="stylesheet" href="{{ "css/vendors/highlight/github-gist.css"| absURL }}">
+  {{ end }}
 
 </head>

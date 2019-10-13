@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on BestYuan</title>
+    <link>https://lllllyuan.github.io/tags/blog/</link>
+    <description>Recent content in blog on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Sun, 13 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>给Hugo博客添加(网易云)音乐功能</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%8A%9F%E8%83%BD/</guid>
+      <description>用网易云音乐给博客添加音乐功能</description>
+    </item>
+    
+    <item>
+      <title>给Hugo博客添加utterances评论功能</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0utterances%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0utterances%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</guid>
+      <description>用hugo + utterances给博客添加评论系统</description>
+    </item>
+    
+    <item>
+      <title>教你20分钟使用Hugo搭建自己的博客</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E6%95%99%E4%BD%A020%E5%88%86%E9%92%9F%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E6%95%99%E4%BD%A020%E5%88%86%E9%92%9F%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <description>记录下自己搭建博客的过程，并写个教程教一下想搭博客的童靴</description>
+    </item>
+    
+    <item>
+      <title>我和我的blog(1)</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/</link>
+      <pubDate>Wed, 09 Oct 2019 00:22:19 +0800</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/</guid>
+      <description>弄了几天的博客，终于弄好了</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,17 +1,18 @@
 ---
-data: "2019-10-11T00:21:14+08:00"
-publishdate: "2019-10-11T00:22:14+08:00"
-lastmod: "2019-10-11T00:22:14+08:00"
+data: "2019-10-12"
+publishdate: "2019-10-12"
+lastmod: "2019-10-12"
 draft: false
 title: "教你20分钟使用Hugo搭建自己的博客"
 tags: ["blog","Go","hugo"]
 series: ["我和我的blog"]
 categories: ["RecordMblog"]
-img: ""
 toc: true
-summary: "记录下自己搭建博客的过程，并写个教程教一下想撘博客的童靴"
+summary: "记录下自己搭建博客的过程，并写个教程教一下想搭博客的童靴"
 ---
-
+<center>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=419373544&auto=1&height=32"></iframe>
+</center>
 
 ## Hugo简介
 
@@ -154,7 +155,7 @@ Repository name为你的`昵称.github.io`,比如我的github为`LLLLLyuan`，�
 
 ![github_repository](/images/blog/2019-10/github_repository.png)
 
-> 注意：答应我，不要任性地把`Repository name`的前缀改为其他的好吗
+> 注意：答应我，不要任性地把`Repository name`的前缀改为其他的好吗，其他的名称github pages读不到
 
 
 然后点击最下面的`Create respository`
@@ -185,7 +186,7 @@ git push -u origin master
 **注意**：
 
 - 将`https://github.com/lllllyuan/lllllyuan.github.io.git`中`lllllyuan`换成你的，地址就是你创建好的`repository`的地址后加`.git`（或直接在页面上点击`clone with https`的`复制按钮`）
-![clone_with_https](/images/blog/2019-10/clone_with_https.png)
+![]]](/images/blog/2019-10/clone_with_https.png)
 
 - 中间可能需要输入密码（第一次push的时候的需要）
 

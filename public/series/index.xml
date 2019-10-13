@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on BestYuan</title>
+    <link>https://lllllyuan.github.io/series/</link>
+    <description>Recent content in Series on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Sun, 13 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>我和我的blog</title>
+      <link>https://lllllyuan.github.io/series/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/series/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

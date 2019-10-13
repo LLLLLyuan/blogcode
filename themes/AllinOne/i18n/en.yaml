@@ -15,11 +15,11 @@
 
 - id: previousPost
   translation: "Previous"
-
+  
 - id: nextPost
-  translation: "Next"
+  translation: "Next"  
 
 - id: postCount
-  translation:
+  translation: 
     one: "One post"
     other: "{{ .Count }} posts"

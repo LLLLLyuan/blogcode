@@ -1,0 +1,18 @@
+sudo: false
+language: go
+git:
+    depth: 1
+install: go get -v github.com/gohugoio/hugo
+script: hugo
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $4fa117863c5617d681a696435ae8542631238112
+    on:
+        branch: master
+    local_dir: public
+    repo: lllllyuan.github.io
+    fqdn: <custom-domain-if-needed>
+    target_branch: master
+    email: 461192586@qq.com
+    name: LLLLLyuan
