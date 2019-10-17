@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BestYuan</title>
+    <link>https://lllllyuan.gitee.io/moment/</link>
+    <description>Recent content on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.gitee.io/moment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One thing I know,that is I know nothing.</title>
+      <link>https://lllllyuan.gitee.io/moment/sad/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/moment/sad/</guid>
+      <description>少年易学老难成，一寸光阴不可轻</description>
+    </item>
+    
+    <item>
+      <title>Easy come Esay go</title>
+      <link>https://lllllyuan.gitee.io/moment/test/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/moment/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

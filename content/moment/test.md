@@ -1,9 +1,6 @@
 +++
 date = "2019-10-09"
 draft = false
-title = "Moment Test"
+title = "Easy come Esay go"
 categories = ["2019"]
 +++
-
-
-### Easy come Esay go

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BestYuan</title>
+    <link>https://lllllyuan.gitee.io/tags/</link>
+    <description>Recent content in Tags on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python</title>
+      <link>https://lllllyuan.gitee.io/tags/python/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>爬虫</title>
+      <link>https://lllllyuan.gitee.io/tags/%E7%88%AC%E8%99%AB/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/%E7%88%AC%E8%99%AB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>前端</title>
+      <link>https://lllllyuan.gitee.io/tags/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>前端性能</title>
+      <link>https://lllllyuan.gitee.io/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>压缩算法</title>
+      <link>https://lllllyuan.gitee.io/tags/%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://lllllyuan.gitee.io/tags/blog/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://lllllyuan.gitee.io/tags/go/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://lllllyuan.gitee.io/tags/hugo/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

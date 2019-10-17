@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>爬虫踩坑记 on BestYuan</title>
+    <link>https://lllllyuan.github.io/series/%E7%88%AC%E8%99%AB%E8%B8%A9%E5%9D%91%E8%AE%B0/</link>
+    <description>Recent content in 爬虫踩坑记 on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.github.io/series/%E7%88%AC%E8%99%AB%E8%B8%A9%E5%9D%91%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>知乎爬虫(一)——requests篇</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%B8%80requests%E7%AF%87/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%B8%80requests%E7%AF%87/</guid>
+      <description>量子力学法教你爬取知乎数据</description>
+    </item>
+    
+  </channel>
+</rss>

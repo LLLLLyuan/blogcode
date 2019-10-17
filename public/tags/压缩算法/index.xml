@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>压缩算法 on BestYuan</title>
+    <link>https://lllllyuan.github.io/tags/%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 压缩算法 on BestYuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 15 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lllllyuan.github.io/tags/%E5%8E%8B%E7%BC%A9%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>什么是Brotli压缩</title>
+      <link>https://lllllyuan.github.io/blog/2019-10/%E4%BB%80%E4%B9%88%E6%98%AFbrotli%E5%8E%8B%E7%BC%A9/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.github.io/blog/2019-10/%E4%BB%80%E4%B9%88%E6%98%AFbrotli%E5%8E%8B%E7%BC%A9/</guid>
+      <description>知己知彼，所向无敌</description>
+    </item>
+    
+  </channel>
+</rss>

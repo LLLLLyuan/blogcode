@@ -1,0 +1,30 @@
+#!/bin/bash
+
+rm -rf public gitee/*
+
+
+hugo --theme=AllinOne --baseUrl="https://lllllyuan.gitee.io/"
+
+cp -r public/. gitee
+cd gitee
+git init
+git remote add git@gitee.com:LLLLLyuan/lllllyuan.git
+git add .
+git commit  -m "add 知乎爬虫"
+git push -f origin master
+cd ..
+
+
+
+rm -rf public github/*
+
+
+hugo --theme=AllinOne --baseUrl="https://lllllyuan.github.io/"
+
+cp -r public/. github
+cd github
+git init
+git remote add git@github.com:LLLLLyuan/lllllyuan.github.io.git
+git add .
+git commit  -m "add 知乎爬虫"
+git push -f origin master

@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="zn-Hans">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="BestYuan">
+  <meta name="description" content="记录下自己搭建博客的过程，并写个教程教一下想搭博客的童靴">
+  
+  <meta property="og:title" content="教你20分钟使用Hugo搭建自己的博客" />
+<meta property="og:description" content="记录下自己搭建博客的过程，并写个教程教一下想搭博客的童靴" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lllllyuan.github.io/blog/2019-10/%E6%95%99%E4%BD%A020%E5%88%86%E9%92%9F%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2019-10-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-12T00:00:00+00:00" /><meta property="og:see_also" content="https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%8A%9F%E8%83%BD/" /><meta property="og:see_also" content="https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0utterances%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/" /><meta property="og:see_also" content="https://lllllyuan.github.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/" />
+
+
+
+  <title>
+  
+       教你20分钟使用Hugo搭建自己的博客 | BestYuan 
+  
+  </title>
+
+  <link rel="canonical" href="https://lllllyuan.github.io/blog/2019-10/%E6%95%99%E4%BD%A020%E5%88%86%E9%92%9F%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+
+  
+  
+
+  
+  <link href="https://lllllyuan.github.io/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="https://lllllyuan.github.io/css/font.css" rel="stylesheet"> 
+    
+  
+  <link href="https://lllllyuan.github.io/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="https://lllllyuan.github.io/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="https://lllllyuan.github.io/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="https://lllllyuan.github.io/css/main.css" rel="stylesheet">
+
+
+  
+  <link rel="shortcut icon"
+  
+      href="https://lllllyuan.github.io/img/liu.png"
+  
+  >
+
+
+  
+  
+
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+
+
+  
+    
+    <link rel="stylesheet" href="https://lllllyuan.github.io/js/vendors/katex/katex.min.css">
+  
+  
+
+  
+    
+    <link rel="stylesheet" href="https://lllllyuan.github.io/css/vendors/highlight/github-gist.css">
+  
+
+</head>
+
+  <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
+  
+    
+    
+
+    
+      
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="https://lllllyuan.github.io/">
+          
+        <img class="avatar" src="https://lllllyuan.github.io/img/liu.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        
+        <strong> BestYuan</strong>
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="https://lllllyuan.github.io/">Home</a>
+          </li>
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/blog/" >Blog  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/moment/" >Moment  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/about/" >About  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/friendlylink/" >Frendly Link  </a>
+            </li>
+          
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  
+ 
+      
+ 
+
+
+
+
+
+
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
+
+  
+  
+  
+
+  
+  <div class="carousel-inner" role="listbox">
+    
+      
+
+        
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides/cover1.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              
+              
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover2.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover3.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover4.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover5.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+
+  
+  </div>
+  
+
+  
+  <div class="carousel-content text-center white-text wow fadeIn">
+    <div class="row mx-0 headfont mt-3 pt-4">
+      
+      <div class="col-12 col-sm-5 align-middle">
+        <a href="https://lllllyuan.github.io/">
+          
+            <img class="pull-right avatar avatar-md" src="https://lllllyuan.github.io/img/me.jpg" alt="" >
+          
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-7 text-left pl-2">
+        <a href="https://lllllyuan.github.io/">
+          <h1 class="mb-2 h1" style="font-weight: 300;" >
+            <strong>BestYuan</strong>
+          </h1>
+        </a>
+        
+
+             
+        <div class="mt-2" style="font-size: 1rem; color: white;">
+            
+              <a href="https://github.com/LLLLLyuan" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
+            
+            
+
+            
+
+            
+
+            
+
+            
+    
+            
+    
+        
+            
+                <a href="mailto:461192586@qq.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+    
+  
+  <main class="post-main-wrapper">
+    
+    <div class="row">
+      
+      
+      
+      <div class="col-md-10">
+      
+        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+          
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+      
+        <li><a href="https://lllllyuan.github.io/categories/recordmblog"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> RecordMblog </a></li>
+      
+    
+    
+      
+        <li><a href="https://lllllyuan.github.io/series/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>我和我的blog</a></li>
+      
+    
+  </ul>
+
+  <div class="px-4 post-heading">教你20分钟使用Hugo搭建自己的博客</div>
+
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Oct 12, 2019</li>
+    
+
+    
+      <li class="middot"></li>
+      <li>5 minutes read</li>
+      <li> This content have been read <span id="busuanzi_value_page_pv"></span> times.</li>
+    
+  </ul>
+  
+
+</div>
+          <div class="post-content markdown">
+           
+            
+
+<p><center>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=419373544&auto=1&height=32"></iframe>
+</center></p>
+
+<h2 id="hugo简介">Hugo简介</h2>
+
+<p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+
+<p>（如果有人问我为什么我的博客打开这么慢，对不起，我的博客只能有缘人才能打开）</p>
+
+<p>开始之前，请记录下时间————途中任何报错信息解决时间不能算进去，下载时间也不能算！</p>
+
+<p>现在开始！</p>
+
+<h2 id="环境搭建">环境搭建</h2>
+
+<p>所需工具：</p>
+
+<ul>
+<li>Hugo</li>
+<li>Git</li>
+<li>Github账号</li>
+</ul>
+
+<p>git的安装以及github账号创建网上教程很多，这里不介绍了，这也不是这个教程的重点，不能本末倒置。我默认你全都弄好了^_^</p>
+
+<h3 id="mac安装hugo">Mac安装Hugo</h3>
+
+<p>mac安装hugo相对比较简单，只需要一个命令就可以下载下来</p>
+
+<h4 id="使用homebrew安装">使用homebrew安装</h4>
+
+<ul>
+<li><p>1、 使用homebrew安装hugo</p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p>未安装homebrew的点这里：<a href="https://brew.sh/">Homebrew</a>，将页面上的代码copy到终端<code>重击</code> <code>Enter</code>键即可。</p></li>
+
+<li><p>2、 查看hugo是否安装成功</p>
+
+<pre><code>hugo version
+</code></pre>
+
+<p>若出现下图类似代码则说明安装成功。</p>
+
+<p><img src="https://lllllyuan.github.io/images/blog/2019-10/hugo_version.png" alt="hugo_version" /></p></li>
+</ul>
+
+<h3 id="windows安装hugo">Windows安装Hugo</h3>
+
+<p>Windows安装有以下几个方法：</p>
+
+<h4 id="使用chocolatey安装">使用Chocolatey安装</h4>
+
+<ul>
+<li><p>在<code>CMD</code>中使用Chocolatey命令</p>
+
+<pre><code>choco install hugo -confirm
+</code></pre></li>
+</ul>
+
+<h4 id="从github上下载">从github上下载</h4>
+
+<ul>
+<li><p>1、直接从<a href="https://github.com/gohugoio/hugo/releases">Hugo的Github</a>上下载相关的windows版本（一般是64位的那个）</p></li>
+
+<li><p>2、将压缩包<code>解压</code>到一个<code>文件夹</code>中（最好与其他软件的文件夹放在一起）</p></li>
+
+<li><p>3、在系统变量里的<code>Path</code>变量中添加上述<code>文件夹</code>路径,如<code>D:\hugo</code></p></li>
+</ul>
+
+<blockquote>
+<p>path添加方法请移步<a href="https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html">百度经验-windows系统如何设置添加环境变量</a>
+添加完后需要重启电脑才生效</p>
+</blockquote>
+
+<p>输入<code>hugo version</code>检查是否安装成功</p>
+
+<h3 id="ubuntu安装hugo">Ubuntu安装Hugo</h3>
+
+<h4 id="使用apt安装">使用apt安装</h4>
+
+<pre><code>sudo apt-get install hugo
+</code></pre>
+
+<p>同样使用<code>hugo version</code>检查，确认好安装成功后接下来就进入正式的创建博客了！</p>
+
+<h2 id="创建站点">创建站点</h2>
+
+<p>首先可以先<code>cd</code>到你想要让博客文件生成的目录下，然后执行下述命令</p>
+
+<pre><code>hugo new site myblog
+</code></pre>
+
+<h2 id="下载主题">下载主题</h2>
+
+<p>hugo的主题可以到<a href="https://themes.gohugo.io/">hugo官方主题库</a>里找，不过说实话都不怎么好看。</p>
+
+<blockquote>
+<p>我用的主题为<a href="https://github.com/orianna-zzo/AllinOne">AllinOne</a></p>
+</blockquote>
+
+<p>找到一款你喜欢的主题，比如主题<code>hyde</code>吧</p>
+
+<ul>
+<li><p>1、找到相关主题的Github地址，比如hyde主题的地址为<code>https://github.com/spf13/hyde.git</code></p></li>
+
+<li><p>2、在<code>myblog</code>目录下创建个<code>themes</code>文件夹（存在就不需要创建）</p></li>
+
+<li><p>3、<code>cd</code>到<code>themes</code>文件下里，然后把主题<code>clone</code>下来</p>
+
+<pre><code>cd themes
+
+git clone https://github.com/spf13/hyde.git
+</code></pre></li>
+</ul>
+
+<p>clone完毕后<code>themes</code>文件夹里就会有一个<code>hyde</code>的文件夹</p>
+
+<h2 id="启用主题">启用主题</h2>
+
+<ul>
+<li><p>回到<code>myblog</code>目录下，启用主题看下效果</p>
+
+<pre><code>cd ..
+
+hugo server --theme=hyde --buildDrafts
+</code></pre></li>
+</ul>
+
+<p>此时会看到一段提示是<code>http://localhost:1313/</code>输入这个地址到浏览器中就可以看到效果了</p>
+
+<h2 id="创建文章-不是那个文章啦">创建文章 (不是那个文章啦）</h2>
+
+<p>此时可以先关闭一下博客服务（ctrl + c），然后使用<code>hugo</code>的<code>new</code>命令创建一篇文章</p>
+
+<pre><code>hugo new post/first_blog.md
+</code></pre>
+
+<p>hugo使用new命令会在content文件夹自动生成你创建的md文件。上述代码意思是在<code>content</code>文件夹下创建个<code>post</code>文件夹，再在<code>post</code>文件夹里创建<code>first_blog.md</code>文件，为什么要在post文件夹，因为方便管理~</p>
+
+<p>然后可以打开<code>first_blog.md</code>文件，在里面随便写下内容，然后重新使用命令启动博客服务:</p>
+
+<pre><code>hugo server --theme=hyde --buildDrafts
+</code></pre>
+
+<p>然后重新打开<code>http://localhost:1313/</code>就可以看到你新写的文章已经生成好了！</p>
+
+<p>接下来是部署的问题</p>
+
+<h2 id="部署github">部署github</h2>
+
+<h3 id="创建repository">创建Repository</h3>
+
+<ul>
+<li><p>1、<code>登录github</code>点击右上角的<code>+</code>，创建一个新的<code>repository</code></p></li>
+
+<li><p>2、设置<code>Repository name</code>
+Repository name为你的<code>昵称.github.io</code>,比如我的github为<code>LLLLLyuan</code>，那么相应的repository name为<code>lllllyuan.github.io</code>（记得大写的通通要改为小写）。</p></li>
+</ul>
+
+<p><img src="https://lllllyuan.github.io/images/blog/2019-10/github_repository.png" alt="github_repository" /></p>
+
+<blockquote>
+<p>注意：答应我，不要任性地把<code>Repository name</code>的前缀改为其他的好吗，其他的名称github pages读不到</p>
+</blockquote>
+
+<p>然后点击最下面的<code>Create respository</code></p>
+
+<h3 id="部署">部署</h3>
+
+<ul>
+<li><p>1、生成静态页面
+在<code>myblog</code>文件目录下执行：</p>
+
+<pre><code>hugo --theme=hyde --baseUrl=&quot;http://lllllyuan.github.io/&quot;
+</code></pre>
+
+<p>出现以下界面表示生成成功</p>
+
+<p><img src="https://lllllyuan.github.io/images/blog/2019-10/public.png" alt="public" /></p></li>
+
+<li><p>2、使用<code>git</code>，将生成的<code>public</code>文件上传到github上，以我自己的为例，依次执行如下命令</p>
+
+<pre><code>cd public
+git init
+git remote add origin https://github.com/lllllyuan/lllllyuan.github.io.git
+git add .
+git commit -m &quot;first_blog commit&quot;
+git push -u origin master
+</code></pre>
+
+<p>出现以下界面说明push成功
+<img src="https://lllllyuan.github.io/images/blog/2019-10/push.png" alt="push" /></p></li>
+</ul>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+<li><p>将<code>https://github.com/lllllyuan/lllllyuan.github.io.git</code>中<code>lllllyuan</code>换成你的，地址就是你创建好的<code>repository</code>的地址后加<code>.git</code>（或直接在页面上点击<code>clone with https</code>的<code>复制按钮</code>）
+![]]](/images/blog/2019-10/clone_with_https.png)</p></li>
+
+<li><p>中间可能需要输入密码（第一次push的时候的需要）</p></li>
+
+<li><p>记得要切到<code>public</code>文件夹下</p></li>
+</ul>
+
+<p>此时算是大功告成了</p>
+
+<p>结束！撒花~</p>
+
+<p>用时<code>19分58秒</code>，管你信不信:ρ</p>
+
+<p>之后就可以去你的github上刷新下，然后访问<code>lllllyuan.github.io</code>就可以看到你的博客了（可能需要等两分钟）</p>
+
+<h2 id="容易出问题的几个地方">容易出问题的几个地方</h2>
+
+<ul>
+<li><p>1、homebrew安装过慢————找个梯子试试</p></li>
+
+<li><p>2、git clone不下来————找个梯子试试</p></li>
+
+<li><p>3、主题启动失败————<del>找个梯子试试</del>多半是主题的<code>参数</code>没有配置好，去主题地址看下<code>README</code>怎么使用的,然后将参数添加到<code>config.toml</code>文件里去</p></li>
+
+<li><p>4、新建文章没有加载出来————有些主题<code>存放文章的文件夹</code>设置的名称不同，有些叫<code>post</code>，有些可能叫<code>blog</code>或者<code>wenzhang</code>，在相应的文件夹下创建即可</p></li>
+
+<li><p>5、部署后发现文章没有生成————去掉文章头部（不是那个文章的头部）的 <code>draft=true</code>，或者将<code>true</code>改为<code>false</code></p></li>
+
+<li><p>6、博客打开慢或打不开————如果不是文件过大的话，这个可能真得找个梯子。</p></li>
+</ul>
+
+<p><strong>btw:想买梯子的可以在我的<a href="https://bestyuan.fun/friendlylink/">友情链接</a>里找<a href="https://www.sitoi.cn/">Sitio</a>或者我买，便宜好用^_^</strong></p>
+
+<h2 id="版本控制">版本控制</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Version</th>
+<th align="center">Action</th>
+<th align="center">Time</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td align="center">first commit</td>
+<td align="center">2019-10-12</td>
+</tr>
+</tbody>
+</table>
+
+            
+          </div>
+          
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://lllllyuan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://lllllyuan.github.io/tags/blog" role="button">blog </a></li>
+      
+    
+      <li><a href="https://lllllyuan.github.io/tags/go" role="button">Go </a></li>
+      
+    
+      <li><a href="https://lllllyuan.github.io/tags/hugo" role="button">hugo </a></li>
+      
+    
+  </div>
+</div>
+              </div>
+            
+            </div>
+          </div>
+          
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=https://lllllyuan.github.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/ class="post-meta">Previous
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>我和我的blog(1)</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+                <a href=https://lllllyuan.github.io/blog/2019-10/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0utterances%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/ class="post-meta">Next
+                  <div class="pt-2 pb-5 flex-reverse">
+                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
+                    <span>给Hugo博客添加utterances评论功能</span>
+                  </div>
+
+
+
+                </a>
+              
+            </div>
+          </div>
+          
+         
+          
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "LLLLLyuan/lllllyuan.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+
+
+        </div>
+        
+      </div>
+      
+      
+	
+	
+	
+	
+		
+		
+		
+	
+
+		
+		<div class="col-md-2 pl-0">
+
+			
+			<div id="page-scrollspy" class="toc-nav">
+				
+				<ul class="nav nav-pills ml-0">
+					
+					<li class="nav-item pb-3 text-center">
+						<span class="font-weight-bold mb-2">- CATALOG - </span>
+					</li>
+
+					
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#hugo%e7%ae%80%e4%bb%8b">
+												 Hugo简介
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba">
+												 环境搭建
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#mac%e5%ae%89%e8%a3%85hugo">
+												 Mac安装Hugo
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%bd%bf%e7%94%a8homebrew%e5%ae%89%e8%a3%85">
+												 使用homebrew安装
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#windows%e5%ae%89%e8%a3%85hugo">
+												 Windows安装Hugo
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%bd%bf%e7%94%a8chocolatey%e5%ae%89%e8%a3%85">
+												 使用Chocolatey安装
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%bb%8egithub%e4%b8%8a%e4%b8%8b%e8%bd%bd">
+												 从github上下载
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#ubuntu%e5%ae%89%e8%a3%85hugo">
+												 Ubuntu安装Hugo
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%bd%bf%e7%94%a8apt%e5%ae%89%e8%a3%85">
+												 使用apt安装
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%88%9b%e5%bb%ba%e7%ab%99%e7%82%b9">
+												 创建站点
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%b8%8b%e8%bd%bd%e4%b8%bb%e9%a2%98">
+												 下载主题
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%90%af%e7%94%a8%e4%b8%bb%e9%a2%98">
+												 启用主题
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%88%9b%e5%bb%ba%e6%96%87%e7%ab%a0-%e4%b8%8d%e6%98%af%e9%82%a3%e4%b8%aa%e6%96%87%e7%ab%a0%e5%95%a6">
+												 创建文章 (不是那个文章啦）
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e9%83%a8%e7%bd%b2github">
+												 部署github
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%88%9b%e5%bb%barepository">
+												 创建Repository
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e9%83%a8%e7%bd%b2">
+												 部署
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%ae%b9%e6%98%93%e5%87%ba%e9%97%ae%e9%a2%98%e7%9a%84%e5%87%a0%e4%b8%aa%e5%9c%b0%e6%96%b9">
+												 容易出问题的几个地方
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6">
+												 版本控制
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+
+				</ul>
+			</div>
+			
+
+		</div>
+		
+	
+    </div>
+    
+  </main>
+  
+
+    
+    
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  
+  <div class="pb-2 mt-5 pt-5">
+    
+      <a href="https://github.com/LLLLLyuan " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+        <a href="mailto:461192586@qq.com"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+
+  </div>
+  
+
+  
+  <div class="copyright py-4">
+    
+    <span>  2016 - 2019 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+  </div>
+  
+
+</footer>
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/mdb/mdb.min.js"></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/main.js"></script>
+
+
+
+  
+  <script src="https://lllllyuan.github.io/js/vendors/highlight.pack.js"> </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+ 
+  <script src="https://lllllyuan.github.io/js/vendors/katex/katex.min.js"> </script>
+  <script src="https://lllllyuan.github.io/js/vendors/katex/contrib/auto-render.min.js"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  new WOW().init();
+</script>
+
+
+
+  </body>
+</html>
