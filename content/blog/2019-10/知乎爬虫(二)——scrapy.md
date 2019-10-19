@@ -135,9 +135,9 @@ class ZhuhuSpider(scrapy.Spider):
     def parse(self, response):
         pass
 ```
-`name`：爬虫名称，类型为 `str` 。
-`allowed_domains`：域名限制，可以多个,类型为 `list` 。
-`start_urls`：起始url，类型为 `list` 。
+`name`：爬虫名称，类型为 *str* 。
+`allowed_domains`：域名限制，可以多个,类型为 *list* 。
+`start_urls`：起始url，类型为 *list*。
 
 爬虫在接受到下载器的response后，都会返回给这个`parse`函数。
 
@@ -244,8 +244,9 @@ FEED_EXPORT_ENCODING = 'utf-8-sig'
 切换到与`scrapy.cfg`文件同目录下，运行下列代码
 
 ```bash
-$ scrapy crawl zhihu.py
+$ scrapy crawl zhihu_spider
 ```
+命令输入完后回车，就可以看到数据会被输出到终端上了。
 
 到这里大家可能发现了，没有数据存储！哈哈，这个步骤大家可以去试试怎么实现，我提供一个更简单的方法
 
