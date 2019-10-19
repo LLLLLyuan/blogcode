@@ -1,6 +1,15 @@
 
 [[series]]
+name = "爬虫踩坑记"
+img = "images/series/爬虫踩坑记/spider.jpg"
+summary = "爬虫写得好，局子进的早"
+
+[[series]]
 name = "我和我的blog"
 img = "images/series/我和我的blog/MeAndMyBlog.jpg"
 summary = "How I build up my personal website"
 
+[[series]]
+name = "前端小知识"
+img = "images/series/慢慢学前端/web前端.jpg"
+summary = "爬虫写得好，局子进的早"
