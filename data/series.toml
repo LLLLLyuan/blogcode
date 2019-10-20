@@ -12,4 +12,10 @@ summary = "How I build up my personal website"
 [[series]]
 name = "前端小知识"
 img = "images/series/慢慢学前端/web前端.jpg"
-summary = "爬虫写得好，局子进的早"
+summary = "不懂前端的后台不是好分析师"
+
+
+[[series]]
+name = "算法练习生"
+img = "images/series/算法练习生/琦玉老师.jpg"
+summary = "算法要学好，秃头要趁早"

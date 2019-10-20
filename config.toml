@@ -29,28 +29,35 @@ pygmentsuseclasses         = true
 [menu]
   [[menu.main]]
     name                   = "Blog"
-    weight                 = -120
+    weight                 = 1
     identifier             = "blog"
     url                    = "blog/"
     comment                = false    #是否 在列表页开启评论功能
 
   [[menu.main]]
+    name                   = "Algorithm"
+    weight                 = 2
+    identifier             = "algorithm"
+    url                    = "algorithm/"
+    comment                = false
+
+  [[menu.main]]
     name                   = "Moment"
-    weight                 = -110
+    weight                 = 3
     identifier             = "moment"
     url                    = "moment/"
     comment                = false
 
   [[menu.main]]
     name                   = "About"
-    weight                 = -100
+    weight                 = 5
     identifier             = "about"
     url                    = "about/"
     comment                = true
 
   [[menu.main]]
     name                   = "Frendly Link"
-    weight                 = -100
+    weight                 = 4
     identifier             = "friendlylink"
     url                    = "friendlylink/"
     comment                = false

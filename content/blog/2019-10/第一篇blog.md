@@ -3,7 +3,7 @@
 date: "2019-10-09T00:22:19+08:00"
 publishdate: "2019-10-09+08:00"
 draft: false
-title: "我和我的blog(1)"
+title: "我和我的blog"
 tags: ["blog","Go","hugo"]
 series: ["我和我的blog"]
 categories: ["RecordMblog"]

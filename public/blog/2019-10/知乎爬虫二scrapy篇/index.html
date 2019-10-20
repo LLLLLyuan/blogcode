@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="zn-Hans">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="BestYuan">
+  <meta name="description" content="真相只有一个，那就是&hellip;">
+  
+  <meta property="og:title" content="知乎爬虫(二)——Scrapy篇" />
+<meta property="og:description" content="真相只有一个，那就是&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%BA%8Cscrapy%E7%AF%87/" />
+<meta property="article:published_time" content="2019-10-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-19T00:00:00+00:00" /><meta property="og:see_also" content="https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%B8%80requests%E7%AF%87/" />
+
+
+
+  <title>
+  
+       知乎爬虫(二)——Scrapy篇 | BestYuan 
+  
+  </title>
+
+  <link rel="canonical" href="https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%BA%8Cscrapy%E7%AF%87/">
+
+  
+  
+
+  
+  <link href="https://lllllyuan.github.io/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="https://lllllyuan.github.io/css/font.css" rel="stylesheet"> 
+    
+  
+  <link href="https://lllllyuan.github.io/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="https://lllllyuan.github.io/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="https://lllllyuan.github.io/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="https://lllllyuan.github.io/css/main.css" rel="stylesheet">
+
+
+  
+  <link rel="shortcut icon"
+  
+      href="https://lllllyuan.github.io/img/liu.png"
+  
+  >
+
+
+  
+  
+
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+
+
+  
+    
+    <link rel="stylesheet" href="https://lllllyuan.github.io/js/vendors/katex/katex.min.css">
+  
+  
+
+  
+    
+    <link rel="stylesheet" href="https://lllllyuan.github.io/css/vendors/highlight/github-gist.css">
+  
+
+</head>
+
+  <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
+  
+    
+    
+
+    
+      
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="https://lllllyuan.github.io/">
+          
+        <img class="avatar" src="https://lllllyuan.github.io/img/liu.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        
+        <strong> BestYuan</strong>
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="https://lllllyuan.github.io/">Home</a>
+          </li>
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/blog/" >Blog  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/algorithm/" >Algorithm  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/moment/" >Moment  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/friendlylink/" >Frendly Link  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://lllllyuan.github.io/about/" >About  </a>
+            </li>
+          
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  
+ 
+      
+ 
+
+
+
+
+
+
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
+
+  
+  
+  
+
+  
+  <div class="carousel-inner" role="listbox">
+    
+      
+
+        
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides/cover1.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              
+              
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover2.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover3.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover4.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://lllllyuan.github.io/img/header-slides//cover5.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+
+  
+  </div>
+  
+
+  
+  <div class="carousel-content text-center white-text wow fadeIn">
+    <div class="row mx-0 headfont mt-3 pt-4">
+      
+      <div class="col-12 col-sm-5 align-middle">
+        <a href="https://lllllyuan.github.io/">
+          
+            <img class="pull-right avatar avatar-md" src="https://lllllyuan.github.io/img/me.jpg" alt="" >
+          
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-7 text-left pl-2">
+        <a href="https://lllllyuan.github.io/">
+          <h1 class="mb-2 h1" style="font-weight: 300;" >
+            <strong>BestYuan</strong>
+          </h1>
+        </a>
+        
+
+             
+        <div class="mt-2" style="font-size: 1rem; color: white;">
+            
+              <a href="https://github.com/LLLLLyuan" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
+            
+            
+
+            
+
+            
+
+            
+
+            
+    
+            
+    
+        
+            
+                <a href="mailto:461192586@qq.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+
+    
+  
+  <main class="post-main-wrapper">
+    
+    <div class="row">
+      
+      
+      
+      <div class="col-md-10">
+      
+        
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+          
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
+    
+    
+      
+        <li><a href="https://lllllyuan.github.io/series/%E7%88%AC%E8%99%AB%E8%B8%A9%E5%9D%91%E8%AE%B0"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>爬虫踩坑记</a></li>
+      
+    
+  </ul>
+
+  <div class="px-4 post-heading">知乎爬虫(二)——Scrapy篇</div>
+
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Oct 19, 2019</li>
+    
+
+    
+      <li class="middot"></li>
+      <li>6 minutes read</li>
+      <li> This content have been read <span id="busuanzi_value_page_pv"></span> times.</li>
+    
+  </ul>
+  
+
+</div>
+          <div class="post-content markdown">
+           
+            
+
+<p>这篇教大家把用requests写的爬虫改装成Scrapy框架的爬虫。</p>
+
+<h2 id="环境准备">环境准备</h2>
+
+<p><code>Python 3.7</code>（本人版本）</p>
+
+<p><code>Pypi</code> ：<em>scrapy</em></p>
+
+<pre><code class="language-bash">$ pip install scrapy
+</code></pre>
+
+<h2 id="什么是scrapy">什么是Scrapy</h2>
+
+<p>Scrapy是目前Python使用的最广泛的爬虫框架，简单上手，稳定性及可扩展性高，并且使用此框架可以快速实现分布式爬虫（这篇不教哈哈）。</p>
+
+<h2 id="scrapy框架组成">Scrapy框架组成</h2>
+
+<p>先上个官方图</p>
+
+<p><img src="https://lllllyuan.github.io/images/blog/2019-10/scrapy.png" alt="scrapy" /></p>
+
+<p>看不懂没关系，我们一个一个看就能看懂了！</p>
+
+<p><strong><code>Scrapy Engine</code></strong>：引擎，责控制数据流在系统中所有组件中流动，并在相应动作发生时触发事件，它是整个框架核心。</p>
+
+<p><strong><code>Scheduler</code></strong>：调度器，从引擎接受request并将他们入队，以便之后引擎请求他们时提供给引擎。</p>
+
+<p><strong><code>Downloader</code></strong>：下载器，负责获取页面数据并提供给引擎，而后提供给spider。</p>
+
+<p><strong><code>Spiders</code></strong>：编写的爬虫文件， 每个spider负责处理一个特定(或一些)网站。</p>
+
+<p><strong><code>Item Pipeline</code></strong>：Item管道，负责处理被spider提取出来的item。典型的处理有清理、 验证及持久化(例如写成文件或者存储数据库)。</p>
+
+<p><strong><code>Downloader middlewares</code></strong>：下载器中间件，是在引擎及下载器之间的特定钩子(specific hook)，处理Downloader传递给引擎的response。 其提供了一个简便的机制，通过插入自定义代码来扩展Scrapy功能。说白了就是可以自定义代码处理response。</p>
+
+<p><strong><code>Spider middlewares</code></strong>：Spider中间件，是在引擎及Spider之间的特定钩子(specific hook)，处理spider的输入(response)和输出(items及requests)。说白了就是可以自定义代码处理Item和requests和response。</p>
+
+<p>那么他的运作原理是什么呢？我们继续看，图中有好多<code>绿色的箭头</code>，他们是<code>数据流(Data flow)</code>。</p>
+
+<p>Scrapy中的<strong>数据流</strong>由执行引擎控制，其过程如下:</p>
+
+<p>1、 引擎打开一个网站(open a domain)，找到处理该网站的Spider并向该spider请求第一个要爬取的URL(s)。</p>
+
+<p>2、引擎从Spider中获取到第一个要爬取的URL并在调度器(Scheduler)以Request调度。</p>
+
+<p>3、引擎向调度器请求下一个要爬取的URL。</p>
+
+<p>4、调度器返回下一个要爬取的URL给引擎，引擎将URL通过下载中间件(请求(request)方向)转发给下载器(Downloader)。</p>
+
+<p>5、一旦页面下载完毕，下载器生成一个该页面的Response，并将其通过下载中间件(返回(response)方向)发送给引擎。</p>
+
+<p>6、引擎从下载器中接收到Response并通过Spider中间件(输入方向)发送给Spider处理。</p>
+
+<p>7、Spider处理Response并返回爬取到的Item及(跟进的)新的Request给引擎。</p>
+
+<p>8、引擎将(Spider返回的)爬取到的Item给Item Pipeline，将(Spider返回的)Request给调度器。</p>
+
+<p>9、(从第二步)重复直到调度器中没有更多地request，引擎关闭该网站。</p>
+
+<p>简单来说就是，每次爬虫的requests请求都先给调度器，调度器再将这些url请求分配给下载器，下载器请求完后将response返回给爬虫，爬虫将response中提取出想要的信息给Item管道，最后由管道完成存储等操作。</p>
+
+<p>这就是简单的一次循环，如果spider提取response时又让它提取出新的url请求，那么就会返回给调度器，进行下一次循环。</p>
+
+<p>说了那么说，先拿上次用requests写的知乎爬虫试试手吧</p>
+
+<h2 id="创建及使用scrapy">创建及使用Scrapy</h2>
+
+<h3 id="创建scrapy项目">创建Scrapy项目</h3>
+
+<p>创建Scrapy项目步骤分三步：1、创建项目 2、进入项目文件夹 3、创建爬虫文件</p>
+
+<p>创建项目命令：scrapy startproject &lt;项目名称&gt;</p>
+
+<p>创建爬虫命令：scrapy genspider &lt;爬虫文件名&gt;  &lt;爬虫域名&gt;</p>
+
+<p>以知乎爬虫为例</p>
+
+<pre><code class="language-bash">$ scrapy startproject zhihu
+
+$ cd zhihu 
+
+$ scrapy genspider zhihu_spider zhihu.com
+</code></pre>
+
+<p>命令输入成功后，<code>zhihu</code>项目文件夹里面会有以下几个文件</p>
+
+<pre><code class="language-text">.
+├── zhihu
+|   ├── __init__.py
+|   ├── items.py
+|   ├── middlewares.py
+|   ├── pipelines.py
+|   ├── settings.py
+|   └── spiders
+|      |── __init__.py
+|      └── zhihu_spider.py
+├── scrapy.cfg
+</code></pre>
+
+<p>此时，我们距离成功就差一点点(<del>大杯冰淇淋红茶</del>)</p>
+
+<h3 id="配置items-py文件">配置items.py文件</h3>
+
+<p>进入<code>items.py</code>后，编写以下代码</p>
+
+<pre><code class="language-python">class ZhihuItem(scrapy.Item):
+    url = scrapy.Field()
+    create_date = scrapy.Field()
+    title = scrapy.Field()
+    description = scrapy.Field()
+    keyword = scrapy.Field()
+</code></pre>
+
+<p>其中，<code>url</code>、<code>create_date</code>、<code>title</code>、<code>description</code>、<code>keyword</code>就是将要存储的字段名称。</p>
+
+<h3 id="编写爬虫">编写爬虫</h3>
+
+<p><code>zhihu_spider.py</code>文件创建好后，大概像下面这个样子</p>
+
+<pre><code class="language-python">class ZhuhuSpider(scrapy.Spider):
+    name = 'zhihu_spider'
+    allowed_domains = ['zhihu.com']
+    start_urls = []
+    
+    def parse(self, response):
+        pass
+</code></pre>
+
+<p><code>name</code>：爬虫名称，类型为 <em>str</em> 。
+<code>allowed_domains</code>：域名限制，可以多个,类型为 <em>list</em> 。
+<code>start_urls</code>：起始url，类型为 *list*。</p>
+
+<p>爬虫在接受到下载器的response后，都会返回给这个<code>parse</code>函数。</p>
+
+<blockquote>
+<p><strong>parse</strong> 函数名称不可更改！</p>
+</blockquote>
+
+<p>将requests更改为scrapy后的完整代码如下</p>
+
+<pre><code class="language-python"># -*- coding: utf-8 -*-
+import json
+import re
+from datetime import datetime
+import scrapy
+from scrapy import Request
+from zhihu.items import ZhihuItem
+from urllib import parse
+
+class ZhihuSpider(scrapy.Spider):
+    name = 'zhihu_spider'
+    allowed_domains = ['zhihu.com']
+    start_urls = []
+    search_keys = [&quot;雪莉&quot;, &quot;S9&quot;, &quot;海贼王狂热行动&quot;, &quot;爬虫&quot;, &quot;数据分析&quot;]
+    # 把想要搜索的搜索词加到search_keys里
+    for search_key in search_keys:
+        base_url = &quot;https://www.zhihu.com/api/v4/search_v3&quot;
+        querystring = {&quot;t&quot;: &quot;general&quot;,
+                       &quot;q&quot;: search_key,
+                       &quot;correction&quot;: &quot;1&quot;,
+                       &quot;offset&quot;: &quot;20&quot;,
+                       &quot;limit&quot;: &quot;20&quot;,
+                       }
+        url = f&quot;{base_url}?{parse.urlencode(querystring)}&quot;
+        start_urls.append(url)
+        # 将构建的url加入到start_urls里
+        
+    def parse(self, response):
+        # print(response.status,response.url)
+        search_key = re.search(r'q=(.*?)&amp;', response.url).group(1)
+        search_key = parse.unquote(search_key)
+        # 转码html
+        # print(parse.unquote(search_key))
+        json_data = response.text
+        dict_data = json.loads(json_data, encoding=&quot;utf_8_sig&quot;)
+        if dict_data['paging']['is_end'] is False:
+            next_url = dict_data['paging']['next']
+            yield Request(url=next_url, callback=self.parse)
+            # 在scrapy中，多个返回用yield而不用return
+        for one in dict_data['data']:
+            try:
+                if one[&quot;type&quot;] == &quot;search_result&quot;:
+                    item = ZhihuItem()
+                    # 将定义过的Item容器传过来，类似字典
+                    title = one[&quot;highlight&quot;][&quot;title&quot;].replace(&quot;&lt;em&gt;&quot;, &quot;&quot;).replace(&quot;&lt;/em&gt;&quot;, &quot;&quot;).strip()
+                    question_id = one[&quot;object&quot;][&quot;question&quot;]['id']
+                    answer_id = one[&quot;object&quot;]['id']
+                    description = one[&quot;object&quot;]['excerpt'].replace(&quot;&lt;em&gt;&quot;, &quot;&quot;).replace(&quot;&lt;/em&gt;&quot;, &quot;&quot;).strip() + &quot;...&quot;
+                    href = f&quot;http://www.zhihu.com/question/{question_id}/answer/{answer_id}&quot;
+                    create_date = one[&quot;object&quot;]['created_time']
+                    item['url'] = href
+                    item['create_date'] = datetime.fromtimestamp(create_date)
+                    item['title'] = title
+                    item['description'] = description
+                    item['keyword'] = search_key
+                    yield item
+            except Exception as e:
+                # print(str(e))
+                pass
+</code></pre>
+
+<h3 id="配置settings-py文件">配置settings.py文件</h3>
+
+<pre><code class="language-python">ROBOTSTXT_OBEY = False
+DOWNLOAD_DELAY = 0.7
+DEFAULT_REQUEST_HEADERS ={
+    'accept-encoding': &quot;gzip, deflate,br&quot;,
+    'accept-language': &quot;zh,en;q=0.9,q=0.8,zh-CN;q=0.7&quot;,
+    'user-agent': &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36&quot;,
+}
+DOWNLOADER_MIDDLEWARES = {
+   'zhihu.middlewares.ZhihuDownloaderMiddleware': 543,
+}
+
+ITEM_PIPELINES = {
+   'zhihu.pipelines.ZhihuPipeline': 300,
+}
+FEED_EXPORT_ENCODING = 'utf-8-sig'
+</code></pre>
+
+<p><code>ROBOTSTXT_OBEY</code>：是否遵循robots协议，默认为*True*，将不会爬取有robots协议规定的网站，一般设置为 <em>False</em> 。</p>
+
+<p><code>DOWNLOAD_DELAY</code>：下载延迟，就是请求间隔，为了减少对网站服务器压力，可根据实际情况调整，默认 <em>0.7</em> 。</p>
+
+<p><code>DEFAULT_REQUEST_HEADERS</code>：取消注释，并添加个通用headers，这样所有请求都会带上这个headers。</p>
+
+<p><code>DOWNLOADER_MIDDLEWARES</code>：开启 middlewares ,当有多个middleware时后面的值越高，优先度越高，默认 <em>543</em> 。</p>
+
+<p><code>ITEM_PIPELINES</code>：开启 pipeline ，后面的值越高，优先度越高，默认 <em>300</em> 。</p>
+
+<p><code>FEED_EXPORT_ENCODING</code>：导出文件的编码 。</p>
+
+<h3 id="运行scrapy爬虫">运行Scrapy爬虫</h3>
+
+<p>运行命令：<em>scrapy crawl &lt;爬虫名称&gt;</em></p>
+
+<p>切换到与<code>scrapy.cfg</code>文件同目录下，运行下列代码</p>
+
+<pre><code class="language-bash">$ scrapy crawl zhihu_spider
+</code></pre>
+
+<p>命令输入完后回车，就可以看到数据会被输出到终端上了。</p>
+
+<p>到这里大家可能发现了，没有数据存储！哈哈，这个步骤大家可以去试试怎么实现，我提供一个更简单的方法</p>
+
+<pre><code class="language-bash">$ scrapy crawl zhihu_spider -o zhihu_spider.csv
+</code></pre>
+
+<p>前面和运行命令的一样，多了一个参数 <code>-o File</code> 为 <code>--output=File</code> 的缩写</p>
+
+<p>运行上述命令，即可看到项目文件目录下多了个 <code>zhihu_spider.csv</code> 文件！</p>
+
+<p>此时，一个简单的scrapy项目已经完成👊</p>
+
+<p>代码文件在<a href="https://github.com/LLLLLyuan/zhihuspider">我的github</a>上，不懂来问</p>
+
+<h2 id="版本控制">版本控制</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Version</th>
+<th align="center">Action</th>
+<th align="center">Time</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">1.0</td>
+<td align="center">first commit</td>
+<td align="center">2019-10-19</td>
+</tr>
+</tbody>
+</table>
+
+            
+          </div>
+          
+          <div class="row">
+            <div class="col-md-8">
+            
+              <div class="mb-5">
+                
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://lllllyuan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://lllllyuan.github.io/tags/python" role="button">Python </a></li>
+      
+    
+      <li><a href="https://lllllyuan.github.io/tags/%E7%88%AC%E8%99%AB" role="button">爬虫 </a></li>
+      
+    
+      <li><a href="https://lllllyuan.github.io/tags/scrapy" role="button">Scrapy </a></li>
+      
+    
+  </div>
+</div>
+              </div>
+            
+            </div>
+          </div>
+          
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=https://lllllyuan.github.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%B8%80requests%E7%AF%87/ class="post-meta">Previous
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>知乎爬虫(一)——requests篇</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+            </div>
+          </div>
+          
+         
+          
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "LLLLLyuan/lllllyuan.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+
+
+        </div>
+        
+      </div>
+      
+      
+	
+	
+	
+	
+		
+		
+		
+	
+
+		
+		<div class="col-md-2 pl-0">
+
+			
+			<div id="page-scrollspy" class="toc-nav">
+				
+				<ul class="nav nav-pills ml-0">
+					
+					<li class="nav-item pb-3 text-center">
+						<span class="font-weight-bold mb-2">- CATALOG - </span>
+					</li>
+
+					
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%8e%af%e5%a2%83%e5%87%86%e5%a4%87">
+												 环境准备
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e4%bb%80%e4%b9%88%e6%98%afscrapy">
+												 什么是Scrapy
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#scrapy%e6%a1%86%e6%9e%b6%e7%bb%84%e6%88%90">
+												 Scrapy框架组成
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%88%9b%e5%bb%ba%e5%8f%8a%e4%bd%bf%e7%94%a8scrapy">
+												 创建及使用Scrapy
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%88%9b%e5%bb%bascrapy%e9%a1%b9%e7%9b%ae">
+												 创建Scrapy项目
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e9%85%8d%e7%bd%aeitems-py%e6%96%87%e4%bb%b6">
+												 配置items.py文件
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%bc%96%e5%86%99%e7%88%ac%e8%99%ab">
+												 编写爬虫
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e9%85%8d%e7%bd%aesettings-py%e6%96%87%e4%bb%b6">
+												 配置settings.py文件
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e8%bf%90%e8%a1%8cscrapy%e7%88%ac%e8%99%ab">
+												 运行Scrapy爬虫
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6">
+												 版本控制
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+							
+						
+				 
+
+				</ul>
+			</div>
+			
+
+		</div>
+		
+	
+    </div>
+    
+  </main>
+  
+
+    
+    
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  
+  <div class="pb-2 mt-5 pt-5">
+    
+      <a href="https://github.com/LLLLLyuan " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+        <a href="mailto:461192586@qq.com"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+
+  </div>
+  
+
+  
+  <div class="copyright py-4">
+    
+    <span>  2016 - 2019 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+  </div>
+  
+
+</footer>
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/vendors/mdb/mdb.min.js"></script>
+
+<script type="text/javascript" src="https://lllllyuan.github.io/js/main.js"></script>
+
+
+
+  
+  <script src="https://lllllyuan.github.io/js/vendors/highlight.pack.js"> </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+ 
+  <script src="https://lllllyuan.github.io/js/vendors/katex/katex.min.js"> </script>
+  <script src="https://lllllyuan.github.io/js/vendors/katex/contrib/auto-render.min.js"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  new WOW().init();
+</script>
+
+
+
+  </body>
+</html>

@@ -10,7 +10,7 @@ cd gitee
 git init
 git remote add git@gitee.com:LLLLLyuan/lllllyuan.git
 git add .
-git commit  -m "add 知乎scrapy爬虫"
+git commit  -m "add 快排算法"
 git push -f origin master
 cd ..
 
@@ -26,5 +26,5 @@ cd github
 git init
 git remote add git@github.com:LLLLLyuan/lllllyuan.github.io.git
 git add .
-git commit  -m "add 知乎scrapy爬虫"
+git commit  -m "add 快排算法"
 git push -f origin master

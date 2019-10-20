@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>知乎爬虫(二)——Scrapy篇</title>
+      <link>https://lllllyuan.gitee.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%BA%8Cscrapy%E7%AF%87/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lllllyuan.gitee.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%BA%8Cscrapy%E7%AF%87/</guid>
+      <description>真相只有一个，那就是&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>知乎爬虫(一)——requests篇</title>
       <link>https://lllllyuan.gitee.io/blog/2019-10/%E7%9F%A5%E4%B9%8E%E7%88%AC%E8%99%AB%E4%B8%80requests%E7%AF%87/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
@@ -57,11 +66,11 @@
     </item>
     
     <item>
-      <title>我和我的blog(1)</title>
-      <link>https://lllllyuan.gitee.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/</link>
+      <title>我和我的blog</title>
+      <link>https://lllllyuan.gitee.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog/</link>
       <pubDate>Wed, 09 Oct 2019 00:22:19 +0800</pubDate>
       
-      <guid>https://lllllyuan.gitee.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog1/</guid>
+      <guid>https://lllllyuan.gitee.io/blog/2019-10/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84blog/</guid>
       <description>弄了几天的博客，终于弄好了</description>
     </item>
     
