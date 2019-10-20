@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/blogcode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitee" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lllllyuan.github.io" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/myblog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mylog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/public" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_theme/AllinOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/AllinOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/AllinOne1" vcs="Git" />
+  </component>
+</project>
