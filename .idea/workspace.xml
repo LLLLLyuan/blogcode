@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10da4d37-36a5-4b5f-aed0-630738fd564d" name="Default Changelist" comment="change code files dir">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/algorithm/Quicksort.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/.idea/github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/algorithm/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/algorithm/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/algorithm/quicksort/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/blog/2019-10/知乎爬虫二scrapy篇/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/images/blog/2019-10/scrapy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/images/series/慢慢学前端/web前端.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/images/series/爬虫踩坑记/spider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/images/series/算法练习生/琦玉老师.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/series/算法练习生/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/acwing/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/c++/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/c++/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/scrapy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/scrapy/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/快速排序/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github/tags/快速排序/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/algorithm/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/algorithm/page/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/algorithm/quicksort/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blog/2019-10/知乎爬虫二scrapy篇/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blog/2019-10/scrapy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/series/慢慢学前端/web前端.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/series/爬虫踩坑记/spider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/series/算法练习生/琦玉老师.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/series/算法练习生/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/acwing/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/c++/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/c++/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/scrapy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/scrapy/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/快速排序/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tags/快速排序/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/blog/2019-10/scrapy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/series/慢慢学前端/web前端.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/series/爬虫踩坑记/spider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/series/算法练习生/琦玉老师.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/about/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/2019-10/第一篇blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/2019-10/第一篇blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/moment/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/moment/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/series.toml" beforeDir="false" afterPath="$PROJECT_DIR$/data/series.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy" beforeDir="false" afterPath="$PROJECT_DIR$/deploy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/BingSiteAuth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/about/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/about/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/什么是brotli压缩/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/我和我的blog1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/教你20分钟使用hugo搭建自己的博客/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/知乎爬虫一requests篇/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/给hugo博客添加utterances评论功能/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/2019-10/给hugo博客添加网易云音乐功能/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/blog/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/2019/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/2019/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/recordmblog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/recordmblog/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/我不会前端吖/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/categories/我不会前端吖/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors-extensions/fontawesome/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors-extensions/mdb/mdb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors-extensions/mdb/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors/bootstrap4/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors/highlight/github-gist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors/mdb/mdb.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/css/vendors/mdb/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/fonts/fontawesome/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/friendlylink/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/friendlylink/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/friendlylink/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/about/二维码.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/F12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/clone_with_https.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/csv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/github_repository.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/hugo_version.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/markdown效果.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/markdown添加.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/public.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/push.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/response.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/utterances仓库设置.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/utterances安装第一步.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/utterances安装第二步.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/zhihu_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/下一页.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/乱码.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/模板效果.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/模板添加.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/添加评论.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/点击外链.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/网易云音乐搜索.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/blog/2019-10/选择尺寸.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/images/series/我和我的blog/MeAndMyBlog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/cloud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/cover_5_missyou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/header-slides/cover1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/header-slides/cover2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/header-slides/cover3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/header-slides/cover4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/header-slides/cover5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/kapian.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/liu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/mask/circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/missyou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/pig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/seaandsun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/settingsun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/surfingboy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/svg/arrow_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/svg/arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/img/twohearts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors-extensions/bootstrap4/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/jquery/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/jquery/jquery.smooth-scroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/auto-render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/auto-render.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/copy-tex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/copy-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/copy-tex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/copy-tex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/mathtex-script-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/contrib/mathtex-script-type.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_AMS-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_AMS-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Caligraphic-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Fraktur-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Main-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Math-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Math-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Math-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_SansSerif-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Script-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Script-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Script-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size1-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size1-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size2-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size2-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size3-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size3-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size4-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Size4-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/fonts/KaTeX_Typewriter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/katex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/katex/katex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/mdb/mdb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/mdb/mdw-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/js/vendors/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/moment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/moment/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/moment/page/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/moment/sad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/moment/alive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/moment/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/moment/alive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/前端小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/algorithm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/前端小知识/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/我和我的blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/我和我的blog/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/爬虫踩坑记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/acwing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/series/爬虫踩坑记/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/blog/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/go/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/go/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/hugo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/hugo/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/acwing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/python/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/algorithm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/前端/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/前端性能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/算法练习生/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/前端性能/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/压缩算法/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/算法练习生/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/压缩算法/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/爬虫/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitee/tags/爬虫/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/about/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/about/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/什么是brotli压缩/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/什么是brotli压缩/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/我和我的blog1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/我和我的blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/教你20分钟使用hugo搭建自己的博客/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/教你20分钟使用hugo搭建自己的博客/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/知乎爬虫一requests篇/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/知乎爬虫一requests篇/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/给hugo博客添加utterances评论功能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/给hugo博客添加utterances评论功能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/2019-10/给hugo博客添加网易云音乐功能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/给hugo博客添加网易云音乐功能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/2019/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/2019/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/recordmblog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/recordmblog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/recordmblog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/recordmblog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/categories/我不会前端吖/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/categories/我不会前端吖/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/friendlylink/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/friendlylink/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/moment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/moment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/moment/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/moment/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/moment/sad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/moment/sad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/moment/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/moment/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/前端小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/前端小知识/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/我和我的blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/我和我的blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/我和我的blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/我和我的blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/爬虫踩坑记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/爬虫踩坑记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/series/爬虫踩坑记/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/series/爬虫踩坑记/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/go/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/go/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/go/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/hugo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/hugo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/hugo/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/hugo/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/python/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/python/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/python/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/前端性能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/前端性能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/压缩算法/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/压缩算法/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/爬虫/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/爬虫/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github/tags/爬虫/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github/tags/爬虫/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/about/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/什么是brotli压缩/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/什么是brotli压缩/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/我和我的blog1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github/blog/2019-10/我和我的blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/教你20分钟使用hugo搭建自己的博客/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/教你20分钟使用hugo搭建自己的博客/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/知乎爬虫一requests篇/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/知乎爬虫一requests篇/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/给hugo博客添加utterances评论功能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/给hugo博客添加utterances评论功能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/2019-10/给hugo博客添加网易云音乐功能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/2019-10/给hugo博客添加网易云音乐功能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/2019/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/2019/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/recordmblog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/recordmblog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/recordmblog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/recordmblog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/我不会前端吖/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/我不会前端吖/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/friendlylink/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/friendlylink/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/moment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/moment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/moment/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/moment/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/moment/sad/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/moment/sad/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/moment/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/moment/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/前端小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/前端小知识/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/我和我的blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/我和我的blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/我和我的blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/我和我的blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/爬虫踩坑记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/爬虫踩坑记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/series/爬虫踩坑记/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/series/爬虫踩坑记/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/blog/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/blog/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/go/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/go/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/go/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hugo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/hugo/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/python/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/python/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/python/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/前端/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/前端性能/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/前端性能/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/压缩算法/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/压缩算法/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/爬虫/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/爬虫/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/爬虫/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/爬虫/index.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/algorithm/Quicksort.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-560">
+                <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-793">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>8</find>
+      <find>col-md-9 mt-3</find>
+      <find>ByPublishDate</find>
+      <find>sort</find>
+      <find>Data.Pages</find>
+      <find>$latestpostscount</find>
+      <find>post-card</find>
+      <find>:=</find>
+      <find>latestpostscount</find>
+      <find>busuan</find>
+      <find>partial</find>
+      <find>busuanzi</find>
+      <find>page</find>
+      <find>cate</find>
+      <find>Avatar</find>
+      <find>pag</find>
+      <find>if .</find>
+      <find>taxonomies</find>
+      <find>if</find>
+      <find>index</find>
+      <find>home</find>
+      <find>eq $kind &quot;home&quot;</find>
+      <find>kind</find>
+      <find>eq</find>
+      <find>container</find>
+      <find>{{ partial &quot;comments.html&quot; . }}</find>
+      <find>Params</find>
+      <find>comment</find>
+      <find>post-heading</find>
+      <find>title</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/footer.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/homepage-header.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/tags.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/post-header.html" />
+        <option value="$PROJECT_DIR$/static/robots.txt" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/20分钟搭建Hugo博客.md" />
+        <option value="$PROJECT_DIR$/lllllyuan.github.io/about/page/1/index.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/_default/terms.html" />
+        <option value="$PROJECT_DIR$/content/blog/2019-11/disanpian.md" />
+        <option value="$PROJECT_DIR$/content/blog/2019-11/第3篇blog.md" />
+        <option value="$PROJECT_DIR$/content/blog/_index.md" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/sidebar-tags.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/sidebar-series.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/index.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/site-scripts.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/sidebar-categories.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/post-card.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/comments.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/_default/list.html" />
+        <option value="$PROJECT_DIR$/content/friendlylink/_index.md" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/_default/single.html" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/page-header.html" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/教你20分钟使用Hugo搭建博客.md" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/Hugo博客添加评论系统.md" />
+        <option value="$PROJECT_DIR$/pub/index.xml" />
+        <option value="$PROJECT_DIR$/pub/index.html" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/content/moment/test.md" />
+        <option value="$PROJECT_DIR$/blogcode/content/blog/2019-10/什么是brotli压缩？.py" />
+        <option value="$PROJECT_DIR$/blogcode/content/blog/2019-10/什么是brotli压缩.md" />
+        <option value="$PROJECT_DIR$/blogcode/data/series.toml" />
+        <option value="$PROJECT_DIR$/content/moment/sad.md" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/什么是brotli压缩.md" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/知乎爬虫(一)——requests.md" />
+        <option value="$PROJECT_DIR$/content/moment/alive.md" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/知乎爬虫(二)——scrapy.md" />
+        <option value="$PROJECT_DIR$/themes/AllinOne/layouts/partials/head.html" />
+        <option value="$PROJECT_DIR$/content/moment/_index.md" />
+        <option value="$PROJECT_DIR$/content/about/_index.md" />
+        <option value="$PROJECT_DIR$/content/algorithm/快速排序.md" />
+        <option value="$PROJECT_DIR$/config.toml" />
+        <option value="$PROJECT_DIR$/content/blog/2019-10/第一篇blog.md" />
+        <option value="$PROJECT_DIR$/content/algorithm/QuickSort.md" />
+        <option value="$PROJECT_DIR$/data/series.toml" />
+        <option value="$PROJECT_DIR$/content/algorithm/Quicksort.md" />
+        <option value="$PROJECT_DIR$/deploy" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/github/.idea/github.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/myblog.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/content/blog/2019-10" />
+      <recent name="$PROJECT_DIR$/myblog" />
+      <recent name="$PROJECT_DIR$/gitee" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/series/爬虫踩坑记" />
+      <recent name="$PROJECT_DIR$/content/blog/2019-10" />
+      <recent name="$PROJECT_DIR$/content/blog" />
+      <recent name="$PROJECT_DIR$/public/images/blog/2019-10" />
+      <recent name="$PROJECT_DIR$/content" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10da4d37-36a5-4b5f-aed0-630738fd564d" name="Default Changelist" comment="" />
+      <created>1570624268961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570624268961</updated>
+      <workItem from="1570624275428" duration="738000" />
+      <workItem from="1570627100821" duration="5657000" />
+      <workItem from="1570635267906" duration="3691000" />
+      <workItem from="1570639999401" duration="12629000" />
+      <workItem from="1570799399817" duration="2000000" />
+      <workItem from="1570812119614" duration="9979000" />
+      <workItem from="1570940836902" duration="17172000" />
+      <workItem from="1570972164659" duration="3989000" />
+      <workItem from="1570986243157" duration="1410000" />
+      <workItem from="1571060380953" duration="7747000" />
+      <workItem from="1571152630669" duration="17300000" />
+      <workItem from="1571332429531" duration="732000" />
+      <workItem from="1571495762875" duration="8112000" />
+      <workItem from="1571505473122" duration="5520000" />
+      <workItem from="1571511791562" duration="548000" />
+      <workItem from="1571547669759" duration="8069000" />
+    </task>
+    <task id="LOCAL-00001" summary="change code files dir">
+      <created>1571333235908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571333235909</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add new blog">
+      <created>1571511112280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571511112280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new blog">
+      <created>1571511376412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571511376412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="105293000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="13" y="28" width="1260" height="737" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3004926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19534884" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41395348" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27422002" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19534884" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4155039" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change code files dir" />
+    <MESSAGE value="add new blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new blog" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/github/baidu_verify_Vdb0QHm3hv.html" />
+    <entry file="file://$PROJECT_DIR$/github/BingSiteAuth.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitee/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitee/blog/page/1/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogcode/config.toml" />
+    <entry file="file://$PROJECT_DIR$/blogcode/README.md" />
+    <entry file="file://$PROJECT_DIR$/blogcode/static/robots.txt" />
+    <entry file="file://$PROJECT_DIR$/blogcode/content/blog/2019-10/Hugo博客添加音乐功能.md" />
+    <entry file="file://$PROJECT_DIR$/blogcode/content/blog/2019-10/Hugo博客添加评论功能.md" />
+    <entry file="file://$PROJECT_DIR$/blogcode/data/series.toml" />
+    <entry file="file://$PROJECT_DIR$/content/moment/test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/Hugo博客添加音乐功能.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="406">
+            <caret line="88" selection-start-line="88" selection-end-line="91" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/blog/2019-10/乱码.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/blog/2019-10/response.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/blog/2019-10/F12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/Hugo博客添加评论功能.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myblog/themes/AllinOne/data/series.toml" />
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/教你20分钟使用Hugo搭建博客.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/moment/sad.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="378">
+            <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/什么是brotli压缩.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1680">
+            <caret line="80" selection-start-line="80" selection-end-line="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/li.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/homepage-header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/toc.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/_default/baseof.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/_default/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/_default/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/_default/taxonomy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/_default/terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/comments.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/layouts/partials/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/data/series.toml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/friendlylink/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/moment/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="147">
+            <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/about/_index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/AllinOne/theme.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/第一篇blog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/moment/alive.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="273">
+            <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/知乎爬虫(一)——requests.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="553">
+            <caret line="236" selection-start-line="236" selection-end-line="236" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/2019-10/知乎爬虫(二)——scrapy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="385">
+            <caret line="264" selection-start-line="264" selection-end-line="267" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/series.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/algorithm/Quicksort.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-560">
+            <caret line="115" column="7" selection-start-line="115" selection-start-column="7" selection-end-line="115" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
