@@ -6,9 +6,10 @@ draft: false
 title: "AcWing785题 ——快速排序（Quick sort）"
 tags: ["快速排序","C++","AcWing"]
 series: ["算法练习生"]
+categories: ["算法"]
 toc: true
 summary: "算法日记————快速排序"
----
+--- 
 ## 题目
 
 给定你一个长度为n的整数数列。
